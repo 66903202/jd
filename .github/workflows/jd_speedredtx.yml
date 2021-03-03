@@ -37,7 +37,7 @@ jobs:
           npm install
       - name: '运行 【京东极速版红包提现】'
         run: |
-          node jd_speedtx.js
+          node jd_speedredtx.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
